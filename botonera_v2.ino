@@ -82,7 +82,8 @@ void loop(){
   }
   if(readKey==true && noKey == 23){ // a key has been pressed
     
-      Serial.println(keyValue); // used for debug
+      //Serial.println(keyValue); // used for debug
+      Serial.write(keyValue);
 /********************************************************
 // call to part of the sketch that will use the key number
 */
